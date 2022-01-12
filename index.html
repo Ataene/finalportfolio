@@ -1,0 +1,473 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,200;0,500;0,700;1,200&display=swap"rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/Ataene.png" type="image/x-icon">
+    <title>Emmanuel Porfolio</title>
+</head>
+
+<body style="background-color: black;">
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-light bg-info py-3 shadow-sm mb-4">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#">Great<span class="text-danger">Spiration</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 fw-bold mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Portfolio</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex">
+                        <button class="btn btn-outline-danger shadow-none" type="submit" data-bs-target="#BookNow"
+                            data-bs-toggle="modal"><i class="far fa-envelope"></i> Hire Me</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Modal -->
+        <div class="modal fade" id="BookNow" tabindex="-1" aria-labelledby="Book" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Book With Us</h5>
+                        <button type="button" class="bt-bs-close" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="/" method="POST">
+                            <div class=" row form-row mb-3">
+                                <div class="form-group col-12">
+                                    <input type="text" name="fName" class="form-control form control-sm my-3" required placeholder="First Name" autofocus>
+                                    <input type="text" name="lName" class="form-control form control-sm my-3" required placeholder="Last Name">
+                                    <input type="email" name="email" class="form-control form control-sm my-3" required  placeholder="Your Email">
+                                    <input type="textarea" name="textarea" class="form-control form control-sm my-3" required  placeholder="Your Message">
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                <button type="submit" class="btn btn-success shadow-none">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="row featurette d-flex mx-auto justify-content-center mb-5 w-75">
+            <div class="col-md-6 order-md-2 d-flex justify-content-center align-item-center">
+                <div class="flex-md-row pt-5 mt-5">
+                    <h1 class="style-name text-white">Hello, I'm Ata <span class="text-danger Emmanuel">Emmanuel</span></h1>
+                    <h5 class="text-white">A Full Stack Software <span id="word"></span>Engineer & UI/UX Designer</h5>
+                    <p class="lead text-white">BSc In Petroleum Systems Engineering</p>
+                    <p class="text-white">I find passion in software development <br />
+                        A freelance in <span class="text-success">software and mobile development</span>
+                    </p>
+                    <a class="text-decoration-none" target="_blank" href="http://github.com/Ataene"><button type="button" class="btn btn-lg m-1 btn-primary shadow-none"><i class="fab fa-github fa-lg"></i></button></a>
+                    <a class="text-decoration-none" target="_blank" href="https://www.linkedin.com/in/alafonye-emmanuel-k/"><button type="button" class="btn btn-lg m-1 btn-primary shadow-none"><i class="fab fa-linkedin fa-lg"></i></button></a>
+                </div>
+            </div>
+            <div class="col-md-6 order-md-1 d-flex justify-content-center">
+                <img class="rounded w-200 h-100 faceImage" src="images/bgImage.png" alt="profile" />
+            </div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <div class="container w-75">
+                <div class="row">
+                    <div class="col pt-5 mt-5" data-bs-target="fade-right">
+                        <p class="display-4 text-danger about">About Me</p>
+                        <h1 class="col-lg-10 fs-4 fw-bold text-white">Talented <span class="text-success">Software Engineer</span></h1>
+                        <h4> <i class="fas fa-check text-white"> Charismatic full Stack developer.</i></h4>
+                        <h4> <i class="fas fa-check text-white"> Petroleum Engineer.</i></h4>
+                        <h4> <i class="fas fa-check text-warning"> UI / UX Web Designer.</i></h4>
+                        <h4> <i class="fas fa-check text-white"> Web Developer with React Native.</i></h4>
+                        <h4> <i class="fas fa-check text-white"> Startup Enthusiast.</i></h4>
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                        <img src="images/javascript.png" alt="Alafonye-picture" />
+                    </div>
+                </div>
+            </div>
+            <div class="py-3 my-4">
+                <h1 class="d-flex justify-content-center fw-bold p-2 text-white">My Skills</h1>
+                <div class="d-flex justify-content-center">
+                    <button class="btn m-1 btn-info shadow-none"><i class="fab fa-react"> React</i></button>
+                    <button class="btn m-1 btn-info shadow-none"><i class="fab fa-react"> React Native</i></button>
+                    <button class="btn m-1 btn-danger shadow-none"><i class="fab fa-node-js"> NodeJs</i></button>
+                    <button class="btn m-1 btn-warning shadow-none"><i class="fas fa-database"> MongoDB</i></button>
+                    <button class="btn m-1 btn-warning shadow-none"><i class="fab fa-aws"> Cloud</i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Projects">
+        <div>
+            <div class="row">
+                <h1 class="mx-auto d-flex justify-content-center fw-bold text-success">My Projects</h1>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-2 m-4 w-75 rounded mx-auto">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/eCommerce.jpg" class="card-img-top" alt="eCommerce Website" />
+                        <div class="card-body">
+                            <h5 class="card-title">Ecommerce Site</h5>
+                            <p class="card-text"> Built and ecommerce website using React and Redux in the front end and
+                                nodejs in the backend.
+                            </p>
+                            <a class="text-decoration-none" target="_blank" href="https://greatspirationse.netlify.app/"><button type="button" class="btn btn-outline-primary shadow-none d-flex mx-auto">Explore</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/printing.jpg" class="card-img-top" alt="Printing Press" />
+                        <div class="card-body">
+                            <h5 class="card-title">Printing Press</h5>
+                            <p class="card-text">Built with bootstrap in front end using Javascript concept. Deplored on
+                                Heroku</p>
+                            <a class="text-decoration-none" target="_blank" href="https://atmatdesigns.netlify.app/"><button type="button" class="btn btn-outline-primary shadow-none d-flex mx-auto">Explore</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/Weather.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">Javascript Toggle</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content.</p>
+                            <button type="button"
+                                class="btn btn-outline-primary d-flex mx-auto shadow-none">Explore</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/webDev.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">Mobile Design</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content.</p>
+                            <button type="button"
+                                class="btn btn-outline-primary shadow-none d-flex mx-auto">Explore</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/Tesla2.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">Weather App</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content.</p>
+                            <button type="button"
+                                class="btn btn-outline-primary shadow-none d-flex mx-auto">Explore</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/Tesla.jpg" class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">Tesla App</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content.</p>
+                            <button type="button"
+                                class="btn btn-outline-primary shadow-none d-flex mx-auto">Explore</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="carouselExampleCaptions" class="carousel slide w-50 d-flex mx-auto" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/eCommerce.jpg" class="d-block w-100" alt="Customer Mary" />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Mary Chris</h1>
+                        <p>GreatSpiration provided the perfect design for our brand.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/Chris.jpg" class="d-block w-100" alt="Customer Chris" />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Michelle Ben</h1>
+                        <p>The services and communication was spot on. Thanks</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/John.jpg" class="d-block w-100" alt="Customer John" />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Micheal Hoff</h1>
+                        <p>We had a great experience working with this brand. Thanks</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section id="services">
+        <div>
+            <div>
+                <div class="row">
+                    <h1 class="mx-auto d-flex justify-content-center fw-bold text-success pt-5">Our Services</h1>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 g-2 m-4 w-75 rounded mx-auto">
+                    <div class="col">
+                        <div class="card h-90">
+                            <img src="images/pro.png" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <h5 class="card-title">Web Development</h5>
+                                <p class="card-text">We offer excellent, responsive and well designed web development
+                                    services
+                                </p>
+                                <button type="button" class="btn btn-outline-warning shadow-none d-flex mx-auto">See More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-90">
+                            <img src="images/design.png" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <h5 class="card-title">UI/UX Design</h5>
+                                <p class="card-text">We offer excellent, and quality designs and priting services. All
+                                    Digital prints</p>
+                                <button type="button" class="btn btn-outline-warning shadow-none d-flex mx-auto">See More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-90">
+                            <img src="images/js.png" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <h5 class="card-title">React Native</h5>
+                                <p class="card-text">We build and deploy mobile designs and quality mobile Apps. Contact
+                                    us for you Mobile Services</p>
+                                <button type="button" class="btn btn-outline-warning shadow-none d-flex mx-auto">See More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container px-4 py-5 w-75" id="custom-cards">
+            <h2 class="pb-2 border-bottom d-flex justify-content-center fw-bold m-2 text-white continue"><span class="text2">Continous Learning</span></h2>
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                <div class="col ">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg custom1">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h2 class="mt-5 mb-4 display-6 lh-1 fw-bold">Data Structure</h2>
+                            <h3>Big O</h3>
+                            <h3>Recursion</h3>
+                            <h3>Binary Search</h3>
+                            <h3>Hash Tables</h3>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <img src="images/html-5.png" alt="man" width="32" height="32"
+                                        class="rounded-circle border border-white" />
+                                </li>
+                                <li class="d-flex align-items-center me-3">
+                                    <svg class="bi me-2" width="1em" height="1em"></svg>
+                                    <small>Earth</small>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <svg class="bi me-2" width="1em" height="1em"></svg>
+                                    <small>3d</small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg custom2">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h2 class="mt-5 mb-4 display-6 lh-1 fw-bold">Challenge</h2>
+                            <h3>FizzBuzz</h3>
+                            <h3>Linear Search</h3>
+                            <h3>Graph & Trees</h3>
+                            <h3>Reverse String</h3>
+                            <h3>Sorting</h3>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <img src="images/html-5.png" alt="man" width="32" height="32"
+                                        class="rounded-circle border border-white" />
+                                </li>
+                                <li class="d-flex align-items-center me-3">
+                                    <svg class="bi me-2" width="1em" height="1em"></svg>
+                                    <small>Canada</small>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <svg class="bi me-2" width="1em" height="1em"></svg>
+                                    <small>4d</small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg custom3">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                            <h2 class="mt-5 mb-4 display-6 lh-1 fw-bold">Premuim</h2>
+                            <h3>Stacks</h3>
+                            <h3>Qeues</h3>
+                            <h3>Trie</h3>
+                            <h3>Finabocci</h3>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <img src="images/html-5.png" alt="man" width="32" height="32"
+                                        class="rounded-circle border border-white" />
+                                </li>
+                                <li class="d-flex align-items-center me-3">
+                                    <svg class="bi me-2" width="1em" height="1em"></svg>
+                                    <small>USA</small>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <svg class="bi me-2" width="1em" height="1em"></svg>
+                                    <small>5d</small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container w-75">
+            <div class="row">
+                <div class="col">
+                    <h1 class="display-4 fw-bold text-warning">Contact Info</h1>
+                    <h4 class="col-lg-10 fs-4 text-white"><i class="fas fa-address-card"></i> Address</h4>
+                    <p class="text-white">Calgary, Alberta, Canda</p>
+                    <h4 class="col-lg-10 fs-4 text-white"><i class="far fa-envelope"></i> Email</h4>
+                    <p class="text-white">greatspiration@yahoo.com</p>
+                    <h4 class="col-lg-10 fs-4 text-success"><i class="fas fa-phone"></i> Phone</h4>
+                    <p class="text-info text-white">+1 (587) 800-5896</p>
+                    <h4 class="col-lg-10 fs-4 text-white"><i class="fas fa-globe"></i> Website</h4>
+                    <p class="text-white">www.greatspiration.com</p>
+                </div>
+                <div class="col">
+                    <form class="p-4 p-md-5 border rounded-3 bg-light">
+                        <h1>Send a message.</h1>
+                        <div class="form-floating mb-3">
+                            <input type="firstname" class="form-control" id="floatingInput" placeholder="Your Name" />
+                            <label for="floatingInput">Name</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" placeholder="Email" />
+                            <label for="floatingPassword">Email</label>
+                        </div>
+                        <div class="checkbox mb-3">
+                            <label>
+                                <textarea class="form-control" placeholder="Enter your message"></textarea>
+                            </label>
+                        </div>
+                        <button class="w-100 btn btn-lg btn-primary shadow-none" type="submit" data-bs-target="#BookNow"
+                            data-bs-toggle="modal">Submit</button>
+                        <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <div class="container">
+                <footer class="py-5">
+                    <div class="row mx-auto d-flex justify-content-center ">
+                        <div class="col-2">
+                            <h5 class="text-white">Navigation</h5>
+                            <ul class="flex-column list-unstyled">
+                                <li class="mb-2"><a href="#" class="">Home</a></li>
+                                <li class="mb-2"><a href="#">About</a></li>
+                                <li class="mb-2"><a href="#">Portfolio</a></li>
+                                <li class="mb-2"><a href="#">Projects</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <form>
+                                <h5 class="text-white">Subscribe to our newsletter</h5>
+                                <p class="text-white">Monthly digest of whats new and exciting from us.</p>
+                                <div class="d-flex w-100 gap-2">
+                                    <label for="newsletter1" class="visually-hidden">Email address</label>
+                                    <input id="newsletter1" type="text" class="form-control"
+                                        placeholder="Email address" />
+                                    <button class="btn btn-primary shadow-none" type="button" data-bs-target="#BookNow"
+                                        data-bs-toggle="modal">Subscribe</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center py-4 my-4 border-top">
+                        <p class="d-flex mt-3 text-white">&copy; 2022 Great<span class="text-danger">Spiration</span>,
+                            Inc. All rights reserved.</p>
+                        <ul class="list-unstyled d-flex">
+                            <li class="ms-3"><a class="link-dark" href="#"><i
+                                        class="fab fa-twitter-square fa-3x text-primary"></i></a></li>
+                            <li class="ms-3"><a class="link-dark" href="#"><i
+                                        class="fab fa-instagram fa-3x text-primary"></i></a></li>
+                            <li class="ms-3"><a class="link-dark" href="#"><i
+                                        class="fab fa-facebook fa-3x text-primary"></i></a></li>
+                        </ul>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

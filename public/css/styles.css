@@ -1,0 +1,38 @@
+html{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.custom1 {
+    background-image: linear-gradient(to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);
+}
+.custom2{
+    background-image: linear-gradient(to top, #50cc7f 0%, #f5d100 100%);
+}
+.custom3{
+    background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+}
+
+.Emmanuel {
+    color: #FFFFFF;
+    text-shadow: 3px 5px 2px #474747;
+    color: #FFFFFF;
+    }
+
+.about {
+    color: #005900;
+    text-shadow: #FFFCA8 3px 3px 0px, #9C9C9C 4px 4px 0px;
+    color: #005900;
+    }
+.faceImage{
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    border-radius: 20px;
+    box-shadow: 4px 4px royalblue;
+}
+
+.fully{
+    font-family: 'Mea Culpa', cursive;
+    font-weight: bold;
+}
